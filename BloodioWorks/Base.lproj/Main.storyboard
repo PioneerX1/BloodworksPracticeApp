@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8U-yU-IMM">
+                                <rect key="frame" x="61" y="284" width="292" height="168"/>
+                                <state key="normal" image="movie_play_red.png"/>
+                                <connections>
+                                    <action selector="PlayAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P5t-My-i2i"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PRESS PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbg-aI-h9b">
+                                <rect key="frame" x="50" y="160" width="315" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
+                                <color key="textColor" red="0.068702960364326646" green="0.96022911269430056" blue="0.94515838540761499" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30665074481865284" green="0.30665074481865284" blue="0.30665074481865284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N8U-yU-IMM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lxz-jJ-D6w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N8U-yU-IMM" secondAttribute="bottom" constant="284" id="PRp-C8-peh"/>
+                            <constraint firstItem="N8U-yU-IMM" firstAttribute="centerX" secondItem="cbg-aI-h9b" secondAttribute="centerX" id="kM1-pT-uzc"/>
+                            <constraint firstItem="N8U-yU-IMM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="w43-Uc-lcB"/>
+                            <constraint firstItem="N8U-yU-IMM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yMG-Yw-1de"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="401.44927536231887" y="123.91304347826087"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="movie_play_red.png" width="500" height="350"/>
+    </resources>
+</document>

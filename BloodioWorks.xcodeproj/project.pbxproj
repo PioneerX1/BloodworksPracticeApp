@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7292305209E3012007FB4FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7292304209E3012007FB4FD /* AppDelegate.m */; };
+		D7292308209E3012007FB4FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7292307209E3012007FB4FD /* ViewController.m */; };
+		D729230B209E3012007FB4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7292309209E3012007FB4FD /* Main.storyboard */; };
+		D729230D209E3015007FB4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D729230C209E3015007FB4FD /* Assets.xcassets */; };
+		D7292310209E3015007FB4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D729230E209E3015007FB4FD /* LaunchScreen.storyboard */; };
+		D7292313209E3015007FB4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7292312209E3015007FB4FD /* main.m */; };
+		D729231D209E3015007FB4FD /* BloodioWorksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D729231C209E3015007FB4FD /* BloodioWorksTests.m */; };
+		D7292328209E3015007FB4FD /* BloodioWorksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7292327209E3015007FB4FD /* BloodioWorksUITests.m */; };
+		D7292337209E3031007FB4FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7292336209E3031007FB4FD /* AudioToolbox.framework */; };
+		D729233F209E3178007FB4FD /* sample_guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = D729233E209E3178007FB4FD /* sample_guitar.wav */; };
+		D7292341209E3FFA007FB4FD /* rfkonmlk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7292340209E3FFA007FB4FD /* rfkonmlk.mp3 */; };
+		D7292343209E42CF007FB4FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7292342209E42CF007FB4FD /* AVFoundation.framework */; };
+		D729234520A5686D007FB4FD /* movie_play_red.png in Resources */ = {isa = PBXBuildFile; fileRef = D729234420A5686D007FB4FD /* movie_play_red.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7292319209E3015007FB4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72922F8209E3012007FB4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72922FF209E3012007FB4FD;
+			remoteInfo = BloodioWorks;
+		};
+		D7292324209E3015007FB4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72922F8209E3012007FB4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72922FF209E3012007FB4FD;
+			remoteInfo = BloodioWorks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7292300209E3012007FB4FD /* BloodioWorks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodioWorks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7292303209E3012007FB4FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7292304209E3012007FB4FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7292306209E3012007FB4FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7292307209E3012007FB4FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D729230A209E3012007FB4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D729230C209E3015007FB4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D729230F209E3015007FB4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7292311209E3015007FB4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7292312209E3015007FB4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7292318209E3015007FB4FD /* BloodioWorksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodioWorksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729231C209E3015007FB4FD /* BloodioWorksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodioWorksTests.m; sourceTree = "<group>"; };
+		D729231E209E3015007FB4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7292323209E3015007FB4FD /* BloodioWorksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodioWorksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7292327209E3015007FB4FD /* BloodioWorksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodioWorksUITests.m; sourceTree = "<group>"; };
+		D7292329209E3015007FB4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7292336209E3031007FB4FD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D729233E209E3178007FB4FD /* sample_guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sample_guitar.wav; sourceTree = "<group>"; };
+		D7292340209E3FFA007FB4FD /* rfkonmlk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rfkonmlk.mp3; sourceTree = "<group>"; };
+		D7292342209E42CF007FB4FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D729234420A5686D007FB4FD /* movie_play_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movie_play_red.png; path = ../../../movie_play_red.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72922FD209E3012007FB4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7292343209E42CF007FB4FD /* AVFoundation.framework in Frameworks */,
+				D7292337209E3031007FB4FD /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7292315209E3015007FB4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7292320209E3015007FB4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72922F7209E3012007FB4FD = {
+			isa = PBXGroup;
+			children = (
+				D7292302209E3012007FB4FD /* BloodioWorks */,
+				D729231B209E3015007FB4FD /* BloodioWorksTests */,
+				D7292326209E3015007FB4FD /* BloodioWorksUITests */,
+				D7292301209E3012007FB4FD /* Products */,
+				D7292335209E3031007FB4FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7292301209E3012007FB4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7292300209E3012007FB4FD /* BloodioWorks.app */,
+				D7292318209E3015007FB4FD /* BloodioWorksTests.xctest */,
+				D7292323209E3015007FB4FD /* BloodioWorksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7292302209E3012007FB4FD /* BloodioWorks */ = {
+			isa = PBXGroup;
+			children = (
+				D729233D209E3163007FB4FD /* Supporting Files */,
+				D7292303209E3012007FB4FD /* AppDelegate.h */,
+				D7292304209E3012007FB4FD /* AppDelegate.m */,
+				D7292306209E3012007FB4FD /* ViewController.h */,
+				D7292307209E3012007FB4FD /* ViewController.m */,
+				D7292309209E3012007FB4FD /* Main.storyboard */,
+				D729230C209E3015007FB4FD /* Assets.xcassets */,
+				D729230E209E3015007FB4FD /* LaunchScreen.storyboard */,
+				D7292311209E3015007FB4FD /* Info.plist */,
+				D7292312209E3015007FB4FD /* main.m */,
+			);
+			path = BloodioWorks;
+			sourceTree = "<group>";
+		};
+		D729231B209E3015007FB4FD /* BloodioWorksTests */ = {
+			isa = PBXGroup;
+			children = (
+				D729231C209E3015007FB4FD /* BloodioWorksTests.m */,
+				D729231E209E3015007FB4FD /* Info.plist */,
+			);
+			path = BloodioWorksTests;
+			sourceTree = "<group>";
+		};
+		D7292326209E3015007FB4FD /* BloodioWorksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7292327209E3015007FB4FD /* BloodioWorksUITests.m */,
+				D7292329209E3015007FB4FD /* Info.plist */,
+			);
+			path = BloodioWorksUITests;
+			sourceTree = "<group>";
+		};
+		D7292335209E3031007FB4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7292342209E42CF007FB4FD /* AVFoundation.framework */,
+				D7292336209E3031007FB4FD /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D729233D209E3163007FB4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D729234420A5686D007FB4FD /* movie_play_red.png */,
+				D7292340209E3FFA007FB4FD /* rfkonmlk.mp3 */,
+				D729233E209E3178007FB4FD /* sample_guitar.wav */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72922FF209E3012007FB4FD /* BloodioWorks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D729232C209E3015007FB4FD /* Build configuration list for PBXNativeTarget "BloodioWorks" */;
+			buildPhases = (
+				D72922FC209E3012007FB4FD /* Sources */,
+				D72922FD209E3012007FB4FD /* Frameworks */,
+				D72922FE209E3012007FB4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodioWorks;
+			productName = BloodioWorks;
+			productReference = D7292300209E3012007FB4FD /* BloodioWorks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7292317209E3015007FB4FD /* BloodioWorksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D729232F209E3015007FB4FD /* Build configuration list for PBXNativeTarget "BloodioWorksTests" */;
+			buildPhases = (
+				D7292314209E3015007FB4FD /* Sources */,
+				D7292315209E3015007FB4FD /* Frameworks */,
+				D7292316209E3015007FB4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D729231A209E3015007FB4FD /* PBXTargetDependency */,
+			);
+			name = BloodioWorksTests;
+			productName = BloodioWorksTests;
+			productReference = D7292318209E3015007FB4FD /* BloodioWorksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7292322209E3015007FB4FD /* BloodioWorksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7292332209E3015007FB4FD /* Build configuration list for PBXNativeTarget "BloodioWorksUITests" */;
+			buildPhases = (
+				D729231F209E3015007FB4FD /* Sources */,
+				D7292320209E3015007FB4FD /* Frameworks */,
+				D7292321209E3015007FB4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7292325209E3015007FB4FD /* PBXTargetDependency */,
+			);
+			name = BloodioWorksUITests;
+			productName = BloodioWorksUITests;
+			productReference = D7292323209E3015007FB4FD /* BloodioWorksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72922F8209E3012007FB4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mick Sexton";
+				TargetAttributes = {
+					D72922FF209E3012007FB4FD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D7292317209E3015007FB4FD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D72922FF209E3012007FB4FD;
+					};
+					D7292322209E3015007FB4FD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D72922FF209E3012007FB4FD;
+					};
+				};
+			};
+			buildConfigurationList = D72922FB209E3012007FB4FD /* Build configuration list for PBXProject "BloodioWorks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D72922F7209E3012007FB4FD;
+			productRefGroup = D7292301209E3012007FB4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72922FF209E3012007FB4FD /* BloodioWorks */,
+				D7292317209E3015007FB4FD /* BloodioWorksTests */,
+				D7292322209E3015007FB4FD /* BloodioWorksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72922FE209E3012007FB4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7292310209E3015007FB4FD /* LaunchScreen.storyboard in Resources */,
+				D729230D209E3015007FB4FD /* Assets.xcassets in Resources */,
+				D729234520A5686D007FB4FD /* movie_play_red.png in Resources */,
+				D729233F209E3178007FB4FD /* sample_guitar.wav in Resources */,
+				D7292341209E3FFA007FB4FD /* rfkonmlk.mp3 in Resources */,
+				D729230B209E3012007FB4FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7292316209E3015007FB4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7292321209E3015007FB4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72922FC209E3012007FB4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7292308209E3012007FB4FD /* ViewController.m in Sources */,
+				D7292313209E3015007FB4FD /* main.m in Sources */,
+				D7292305209E3012007FB4FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7292314209E3015007FB4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729231D209E3015007FB4FD /* BloodioWorksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729231F209E3015007FB4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7292328209E3015007FB4FD /* BloodioWorksUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D729231A209E3015007FB4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72922FF209E3012007FB4FD /* BloodioWorks */;
+			targetProxy = D7292319209E3015007FB4FD /* PBXContainerItemProxy */;
+		};
+		D7292325209E3015007FB4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72922FF209E3012007FB4FD /* BloodioWorks */;
+			targetProxy = D7292324209E3015007FB4FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7292309209E3012007FB4FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D729230A209E3012007FB4FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D729230E209E3015007FB4FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D729230F209E3015007FB4FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D729232A209E3015007FB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D729232B209E3015007FB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D729232D209E3015007FB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF535HYDDT;
+				INFOPLIST_FILE = BloodioWorks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pioneerx1.BloodioWorks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D729232E209E3015007FB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF535HYDDT;
+				INFOPLIST_FILE = BloodioWorks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pioneerx1.BloodioWorks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7292330209E3015007FB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF535HYDDT;
+				INFOPLIST_FILE = BloodioWorksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pioneerx1.BloodioWorksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodioWorks.app/BloodioWorks";
+			};
+			name = Debug;
+		};
+		D7292331209E3015007FB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF535HYDDT;
+				INFOPLIST_FILE = BloodioWorksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pioneerx1.BloodioWorksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodioWorks.app/BloodioWorks";
+			};
+			name = Release;
+		};
+		D7292333209E3015007FB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF535HYDDT;
+				INFOPLIST_FILE = BloodioWorksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pioneerx1.BloodioWorksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodioWorks;
+			};
+			name = Debug;
+		};
+		D7292334209E3015007FB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HF535HYDDT;
+				INFOPLIST_FILE = BloodioWorksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pioneerx1.BloodioWorksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodioWorks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72922FB209E3012007FB4FD /* Build configuration list for PBXProject "BloodioWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729232A209E3015007FB4FD /* Debug */,
+				D729232B209E3015007FB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D729232C209E3015007FB4FD /* Build configuration list for PBXNativeTarget "BloodioWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729232D209E3015007FB4FD /* Debug */,
+				D729232E209E3015007FB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D729232F209E3015007FB4FD /* Build configuration list for PBXNativeTarget "BloodioWorksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7292330209E3015007FB4FD /* Debug */,
+				D7292331209E3015007FB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7292332209E3015007FB4FD /* Build configuration list for PBXNativeTarget "BloodioWorksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7292333209E3015007FB4FD /* Debug */,
+				D7292334209E3015007FB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72922F8209E3012007FB4FD /* Project object */;
+}
